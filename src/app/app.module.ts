@@ -10,9 +10,9 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent
   ],
   imports: [
+    HeroesComponent,
     BrowserModule,
     AppRoutingModule,
     FormsModule
