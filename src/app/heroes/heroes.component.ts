@@ -7,13 +7,14 @@ import {
   /* . . . */
 } from '@angular/common';
 import {FormsModule} from "@angular/forms";
+import {HeroDetailComponent} from "../hero-detail/hero-detail.component";
 
 @Component({
   standalone: true,
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.scss'],
-  imports: [NgFor, NgIf, UpperCasePipe, FormsModule]
+  imports: [NgFor, NgIf, UpperCasePipe, FormsModule, HeroDetailComponent]
 })
 
 export class HeroesComponent {
